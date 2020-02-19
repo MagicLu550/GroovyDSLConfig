@@ -45,9 +45,17 @@ items{
 ```
 如上面代码执行为
 ```log
-items.hello.
 url : [0]
 items.hello
+```
+同样的，您可以在dsl上写groovy代码
+```groovy
+items{
+    hello{
+      url "helloworld" 
+      print "abc"
+    }
+}
 ```
 
 
