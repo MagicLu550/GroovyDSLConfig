@@ -48,7 +48,7 @@ abstract class DSLParser {
         this.fileClass.getMethod("run").invoke(fileClass.newInstance())
     }
 
-    String getValue(String key){
+    Object getValue(String key){
         return entry[key]
     }
 
