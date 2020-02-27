@@ -1,5 +1,5 @@
-# SimpleDSL4j
-SimpleDSL - 可以简化自定义DSL文件的解析
+# GroovyDSLConfig
+可以简化自定义DSL文件的解析
 
 具体使用方法参见[Example类](src/main/java/net/noyark/www/dsl/utils/Example.groovy)
 
